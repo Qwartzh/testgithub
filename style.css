@@ -1,0 +1,158 @@
+h1 {
+  
+    font-family: 'Baskervville', serif;
+    font-style: italic;
+    font-weight: lighter;
+    letter-spacing: 20px;
+    color: white;
+    font-size: 100px;
+    margin: 0;
+    white-space: nowrap;  
+    padding-top: 16rem;
+    padding-bottom: 25rem;
+    opacity: 0;/* Ces deux prochaines lignes servent de position initiale à l'animation*/
+    transition: opacity 5s ease;
+    /* yeah*/
+
+   
+
+}
+header {
+    display: flex;
+    background-color: #12233C;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+
+  
+    
+
+}
+body {
+    margin : 0;
+    border: 0;
+   
+}
+
+.barre1 {
+    height: 5px;
+    background-color: white;
+    width: 250px;
+    position: absolute;
+    left: calc(50% - 395px);
+    bottom: 47%;
+    transform: translate(-50%, 50%);
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 1.5s ease;
+}
+
+
+.barre2 {
+    height: 5px;
+    background-color: white;
+    width: 250px;
+    position: absolute;
+   /* right: calc(75% - 6em);*/
+    bottom:47% ;
+    right: calc(50% - 450px);
+    transform-origin: left;
+    transform: scaleX(0);
+    transition: transform 1.5s ease;
+          
+}
+
+
+
+.logo {
+    height: 100%;
+    position: absolute;
+    left: auto;
+   
+}
+
+.psychologue {
+    color: white;
+    font-family: 'Baskervville', serif;
+    font-style: italic;
+    position: absolute;
+    font-weight: lighter;
+    font-size: 32px;
+    top: 11.5em;
+    opacity: 0;/* Ces deux prochaines lignes servent de position initiale à l'animation*/
+    transition: opacity 5s ease;
+   
+    
+    
+}
+
+#petitlogo {
+    width: 200px ;
+    position: absolute;
+    bottom: 12.5em;
+    transform:rotate(-20deg);
+    opacity: 0;/* Ces deux prochaines lignes servent de position initiale à l'animation*/
+    transition: opacity 4s ease-in;
+}
+
+.navbar {
+    position: absolute;
+    justify-content: center;
+    white-space: nowrap;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+  }
+  
+  .ul {
+    list-style: none;
+    margin: 0;
+    padding: 10px;
+    font-size: 30px;
+    width: 100%;
+    background-color: green;
+    white-space: nowrap;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    display: flex;
+     /* Ajout de flexbox pour centrer */
+  }
+  
+  .navbar li {
+    display: inline-block;
+    margin-right: 300px;
+  
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: white;
+    padding-top: 0;
+  }
+  
+  .navbar a:hover {
+    color: #a85555;
+  }
+  
+  .logonav {
+    position: absolute;
+    height: 40px;
+    border-right: black solid 2px;
+    padding-right: 20px;
+    top: 0;
+    left: 30px;
+  }
+  
+
+/*.fixed {
+    position: fixed;
+    top: 0;
+    list-style: none;
+    
+   
+    
+  }
+  
